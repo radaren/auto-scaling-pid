@@ -1,4 +1,12 @@
 # auto-scaling-pid
-任磊达同学的毕业设计repo~
-基于kubernetes go-client1.10.0实验的弹性伸缩框架和部分算法实现
 
+
+filename | describtion
+-|-
+main.go | 核心业务逻辑
+request-generator.go | 负载请求器
+stategy.go | 弹性伸缩策略
+tools.go | 引用官方example的代码，完成鉴权初始化
+php-apache-service.yaml | service实现yaml
+glide.yaml | 依赖包
+README.md | readme
