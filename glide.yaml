@@ -1,0 +1,37 @@
+package: pid # ( your project's import path ) # e.g. github.com/foo/bar
+import:
+- package: k8s.io/client-go
+  version: v10.0.0 # replace v9.0.0 with the required version
+# Use a newer version of go-spew even though client-go wants an old one.
+- package: github.com/davecgh/go-spew
+  version: v1.1.0
+- package: k8s.io/klog
+- package: k8s.io/apimachinery
+  version: kubernetes-1.13.4
+- package: sigs.k8s.io/yaml
+- package: k8s.io/api
+  version: kubernetes-1.13.4
+
+- package: golang.org/x/time
+- package: golang.org/x/oauth2
+- package: golang.org/x/net/http2
+- package: golang.org/x/crypto/ssh
+- package: github.com/spf13/pflag
+- package: github.com/peterbourgon/diskv
+- package: github.com/imdario/mergo
+- package: github.com/golang/protobuf/proto
+- package: github.com/google/gofuzz
+- package: github.com/googleapis/gnostic/OpenAPIv2
+- package: github.com/gregjones/httpcache
+- package: github.com/google/btree
+- package: golang.org/x/sys/unix
+- package: golang.org/x/text/secure/bidirule
+- package: golang.org/x/text/unicode/bidi
+- package: golang.org/x/text/unicode/norm
+- package: gopkg.in/yaml.v2
+
+- package: github.com/gogo/protobuf
+- package: github.com/json-iterator/go
+- package: github.com/modern-go/reflect2
+- package: gopkg.in/inf.v0
+- package: github.com/modern-go/concurrent
